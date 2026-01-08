@@ -1,3 +1,6 @@
+## 2026-01-08
+update: we created git repo to sync work along the machines
+
 ## 2025-12-19
 Topic: Python setup + print + input
 Source: DataCamp
