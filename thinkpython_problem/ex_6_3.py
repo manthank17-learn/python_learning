@@ -1,12 +1,18 @@
-word =str(input("whats the word G??"))
+word= str(input("what is your word G?:"))
 
-def first(word):
-    return word[0]
+def is_palindrome(word):
+    n = len(word)
+    i = 0
 
-def last(word):
-    return word[-1]
+    while i < n // 2:
+        first = word[i]
+        last = word[-(i + 1)]
 
-def middle(word):
-    return word[1:-1]
+        if first != last:
+            return False
 
-print(last(word),middle(word),first(word))
+        i += 1
+
+    return True
+
+print(is_palindrome(word))
