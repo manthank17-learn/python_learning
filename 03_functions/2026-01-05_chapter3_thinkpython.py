@@ -18,8 +18,9 @@ line2 = "tiddle bang"
 cat_twice(line2,line1)
 
 
-def right_justify(s):
+"""def right_justify(s):
     print(len(s))
     print(s(:-1))
 
 right_justify("i m good")
+"""

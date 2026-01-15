@@ -1,9 +1,9 @@
 # letters.py
 import turtle
 
-# ======================
+
 # Helper primitives
-# ======================
+
 
 LETTER_HEIGHT = 60
 LETTER_WIDTH = 40
@@ -21,9 +21,9 @@ def end_letter(t, start_heading, start_y):
     t.fd(LETTER_WIDTH + SPACING)
     t.pendown()
 
-# ======================
+
 # Letter definitions
-# ======================
+
 
 def draw_a(t):
     h, y = begin_letter(t)
@@ -90,9 +90,10 @@ def draw_h(t):
 
     end_letter(t, h, y)
 
-# ======================
+
+
 # Dispatch table
-# ======================
+
 
 LETTERS = {
     'a': draw_a,

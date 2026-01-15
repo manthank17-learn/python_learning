@@ -1,3 +1,10 @@
+## 2026-10-14
+the actual problem i solved on first try ack(m,n)
+## 2026-01-12
+python learning from think python 
+basic leetcode review
+
+
 ## 2026-01-08
 update: we created git repo to sync work along the machines
 
