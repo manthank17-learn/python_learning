@@ -5,3 +5,7 @@ def countdown(n):
     print('Blastoff!')
 
 countdown(100000)
+
+#eval()
+result = eval("2+3")
+print(result)
