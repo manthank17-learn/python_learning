@@ -1,3 +1,4 @@
+# this is the update file for ex 8.1
 fruit = 'banana'
 suffix = 'ack'
 
