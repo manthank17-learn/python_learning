@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 fruit = 'banana'
 suffix = 'ack'
 
 for letter in fruit:
     print(letter + suffix)
 
-=======
 """
 we have ex 8.1.py\
 
@@ -28,4 +26,3 @@ print(s.replace("a","o"))
 
 name = "manthan"
 print(name.find("a",2,5))
->>>>>>> df6dd36 ( files added)
