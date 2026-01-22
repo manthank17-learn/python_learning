@@ -40,7 +40,7 @@ def print_long_words(word):
     for word in word:
         if len(word) >20:
             print(word)
-print("---------------------------------")
+print("--- ------------------------------")
 
 print_long_words(word)
 print("---------------------------------")
