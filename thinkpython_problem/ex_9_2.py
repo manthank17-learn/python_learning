@@ -2,11 +2,20 @@
 word = open('thinkpython_problem\word.txt')
 
 def  get_each_word(word):
-         for i in word:
-            print(i)
+         for w in word:
+            print(w) # i wanna store the value of each w here and use that in the next function 
 
+def check_for_e(w):
+      e = chr(101)
+      E = chr(69)
+      for e in w:
+            if ord(e) == e or ord(e)== E :
+                  print("True")
+            else:
+                  print("false")
 
-            
+print(check_for_e(w))                 
+    
 """
 e = chr(101)
 E = chr(69)
